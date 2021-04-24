@@ -1,0 +1,21 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^5.5.3",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "faker": "^5.5.3"
+  }
+}
